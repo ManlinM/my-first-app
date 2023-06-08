@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-first-app';
+
+  fontColor ='blue';
+  sayHelloId=1;
+  canClick=false;
+  message ='Hello, world';
+
+  sayMessage(){alert(this.message);}
 }
