@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HelloWorldNgifComponent } from './hello-world-ngif/hello-world-ngif.component';
+import { HelloWorldDiComponent } from './hello-world-di/hello-world-di.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HelloWorldNgifComponent
+    HelloWorldNgifComponent,
+    HelloWorldDiComponent
   ],
   imports: [
     BrowserModule
